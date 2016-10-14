@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{DD781395-08C9-4A78-9EF2-C70ADA5393F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsAuthService", "WindowsAuthService\WindowsAuthService.csproj", "{AB532497-CA84-4C28-9271-368D6BC572FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{FE52CD57-9D7E-45CB-AB2A-F8C4D33BAB25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD781395-08C9-4A78-9EF2-C70ADA5393F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD781395-08C9-4A78-9EF2-C70ADA5393F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD781395-08C9-4A78-9EF2-C70ADA5393F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD781395-08C9-4A78-9EF2-C70ADA5393F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB532497-CA84-4C28-9271-368D6BC572FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB532497-CA84-4C28-9271-368D6BC572FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB532497-CA84-4C28-9271-368D6BC572FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB532497-CA84-4C28-9271-368D6BC572FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE52CD57-9D7E-45CB-AB2A-F8C4D33BAB25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE52CD57-9D7E-45CB-AB2A-F8C4D33BAB25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE52CD57-9D7E-45CB-AB2A-F8C4D33BAB25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE52CD57-9D7E-45CB-AB2A-F8C4D33BAB25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
